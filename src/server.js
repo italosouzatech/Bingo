@@ -1,5 +1,5 @@
-"use strict"; 
-const LET="BINGO!",$=id=>document.getElementById(id),app=$("Bingo!");
+"use strict";
+const LET="BINGO",$=id=>document.getElementById(id),app=$("app");
 let N=0,drawn=[],view="menu",psize=50,bt,rt;
 const pubWin=location.hash==="#publico";
 const has=n=>drawn.includes(n),letraDe=n=>LET[Math.floor((n-1)/(N/5))];
