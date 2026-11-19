@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; 
 const LET="BINGO",$=id=>document.getElementById(id),app=$("app");
 let N=0,drawn=[],view="menu",psize=50,bt,rt;
 const pubWin=location.hash==="#publico";
